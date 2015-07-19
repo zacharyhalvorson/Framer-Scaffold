@@ -1,6 +1,6 @@
 exports.bg = new BackgroundLayer
-exports.bg.backgroundColor = 'white'
-
+	backgroundColor:"#fff"
+	name: 'bg'
 
 exports.title = new Layer
 	backgroundColor: 'transparent'
@@ -16,11 +16,11 @@ exports.title = new Layer
 	width: Screen.width
 	height: 400
 	y: 300
-
-
+	name: 'title'
 
 exports.spark = new Layer
 	image: "images/flat-spark.png"
 	scale: 2.5
+	name: 'spark'
 
 exports.spark.center()
