@@ -1,6 +1,6 @@
 title = new Layer
 	backgroundColor: 'transparent'
-	html: 'Framer Scaffold,<br> get your prototype on.'
+	html: 'Framer Scaffold,<br> quick start with basic modules.'
 	style: {
 		'color': 'slategray',
 		'text-align': 'center',
