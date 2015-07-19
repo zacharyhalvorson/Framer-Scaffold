@@ -10,9 +10,9 @@ defaults = {
 	screenWidth: Screen.width
 	screenHeight: Screen.height
 	barHeight: 98
-	labelOffset: -28
-	iconOffset: -12
-	tintColor: "#007aff"
+	labelOffset: 0
+	iconOffset: 0
+	tintColor: "#25DDBF"
 	tintColorUnselected: "#929292"
 	blur: 40
 	opacity: 0.75
@@ -23,7 +23,7 @@ defaults = {
 	badgeColor: "#FF3B30"
 }
 defaults.labelTextStyle = {
-	fontSize: "20px"
+	fontSize: "0"
 	textAlign: "center"
 	fontFamily: "Helvetica Neue', sans-serif"
 }
