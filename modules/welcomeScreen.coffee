@@ -1,4 +1,8 @@
-title = new Layer
+exports.bg = new BackgroundLayer
+exports.bg.backgroundColor = 'white'
+
+
+exports.title = new Layer
 	backgroundColor: 'transparent'
 	html: 'Framer Scaffold,<br> quick start with basic modules.'
 	style: {
@@ -15,8 +19,8 @@ title = new Layer
 
 
 
-spark = new Layer
+exports.spark = new Layer
 	image: "images/flat-spark.png"
 	scale: 2.5
 
-spark.center()
+exports.spark.center()
